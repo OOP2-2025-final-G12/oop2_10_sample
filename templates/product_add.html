@@ -15,7 +15,7 @@
 
     <form action="{{ url_for('product.add') }}" method="post">
         <label>教科名: <input type="text" name="name" required></label><br>
-        <label>講師名: <input type="number" step="1" name="price" required></label><br>
+        <label>講師名: <input type="text" step="1" name="price" required></label><br>
         <button type="submit">追加</button>
     </form>
 </body>
