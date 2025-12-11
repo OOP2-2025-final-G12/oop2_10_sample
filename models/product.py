@@ -1,4 +1,4 @@
-from peewee import Model, CharField, CharField
+from peewee import Model, CharField, DecimalField, Check
 from .db import db
 
 class Product(Model):
