@@ -2,23 +2,25 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>データ一覧</title>
+    <title>科目一覧</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='base-style.css') }}">
 </head>
 <body>
     <h1>{{ title }}</h1>
     <ul class="breadcrumb">
         <li><a href="{{ url_for('index') }}">HOME</a></li>
-        <li><a href="{{ url_for('product.list') }}">生徒一覧</a></li>
+        <li><a href="{{ url_for('product.list') }}">科目一覧</a></li>
 
     </ul>
-    <a href="{{ url_for('product.add') }}">新規生徒追加</a>
+    <a href="{{ url_for('product.add') }}">新規科目追加</a>
+
     <table>
         <thead>
             <tr>
                 <th>&nbsp;</th>
-                <th>生徒名</th>
-                <th>学年</th>
+                <th>科目</th>
+                <th>教授</th>
+
             </tr>
         </thead>
         <tbody>
