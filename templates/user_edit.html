@@ -11,6 +11,7 @@
         <li><a href="{{ url_for('index') }}">HOME</a></li>
         <li><a href="{{ url_for('user.list') }}">生徒一覧</a></li>
         <li>生徒編集</li>
+
     </ul>
 
     <form action="{{ url_for('user.edit', user_id=user.id) }}" method="post">

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>生徒追加</title>
+
     <link rel="stylesheet" href="{{ url_for('static', filename='base-style.css') }}">
 </head>
 <body>
@@ -11,6 +12,7 @@
         <li><a href="{{ url_for('index') }}">HOME</a></li>
         <li><a href="{{ url_for('user.list') }}">生徒一覧</a></li>
         <li>生徒登録</li>
+
     </ul>
 
     <form action="{{ url_for('user.add') }}" method="post">
