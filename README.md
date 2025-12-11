@@ -33,7 +33,6 @@ peewee==3.17.7
 
 > このリポジトリのアプリを動作させるために行う手順を詳細に書いてください。
 
-```bash
-$ python app.py
-# Try accessing "http://localhost:8080" in your browser.
-```
+
+## 連絡用Discord サーバー
+[https://discord.gg/RQ2dqkAB](https://discord.gg/RQ2dqkAB)
